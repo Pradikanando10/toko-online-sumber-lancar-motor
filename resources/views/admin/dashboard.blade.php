@@ -1,36 +1,3 @@
-{{-- @extends('layouts.admin')
-
-@section('content')
-<div class="container">
-    <h1>Dashboard Admin</h1>
-    <p>Selamat datang di dashboard admin!</p>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-white bg-primary mb-3">
-                <div class="card-header">Jumlah Pesanan</div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ $orderCount }}</h5>
-                    <p class="card-text">Total pesanan yang telah dibuat.</p>
-                    <a href="{{ route('admin.orders') }}" class="btn btn-light">Lihat Daftar Pesanan</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card text-white bg-success mb-3">
-                <div class="card-header">Jumlah Produk</div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ $productCount }}</h5>
-                    <p class="card-text">Total produk yang tersedia di toko.</p>
-                    <a href="{{ route('admin.products.index') }}" class="btn btn-light">Kelola Produk</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection --}}
-
 @extends('layouts.admin')
 
 @section('content')

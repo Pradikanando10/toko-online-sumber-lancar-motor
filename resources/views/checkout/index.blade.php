@@ -78,18 +78,6 @@
         
             <button type="submit" class="btn btn-success">Submit Pesanan</button>
         </form>
-        
-        
-
-        {{-- Form Bukti Transfer --}}
-        {{-- <form action="{{ route('checkout.process') }}" method="POST" enctype="multipart/form-data" class="mb-4">
-            @csrf
-            <div class="mb-3">
-                <label for="payment_image" class="form-label">Upload Bukti Transfer</label>
-                <input type="file" id="payment_image" name="payment_image" class="form-control" required accept="image/*">
-            </div>
-            <button type="submit" class="btn btn-success">Submit Pesanan</button>
-        </form> --}}
 
         {{-- Kontak WhatsApp --}}
         <p class="mb-2">Konfirmasi pembayaran melalui Whatsapp hubungi:</p>

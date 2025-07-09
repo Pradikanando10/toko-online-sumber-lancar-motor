@@ -6,36 +6,6 @@ use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
-    // public function add(Request $request)
-    // {
-    //     $request->validate([
-    //         'product_id' => 'required|exists:products,id',
-    //         'quantity' => 'required|integer|min:1',
-    //     ]);
-
-    //     $cart = session()->get('cart', []);
-
-    //     if (isset($cart[$request->product_id])) {
-    //         $cart[$request->product_id]['quantity'] += $request->quantity;
-    //     } else {
-    //         $cart[$request->product_id] = [
-    //             "name" => Product::find($request->product_id)->name,
-    //             "quantity" => $request->quantity,
-    //             "price" => Product::find($request->product_id)->price,
-    //         ];
-    //     }
-
-    //     session()->put('cart', $cart);
-
-    //     return redirect()->route('home')->with('success', 'Produk berhasil di tambahkan ke keranjang!');
-    // }
-
-    // public function index()
-    // {
-    //     $cart = session()->get('cart');
-    //     return view('cart.index', compact('cart'));
-    // }
-
     public function add(Request $request)
     {
         $request->validate([

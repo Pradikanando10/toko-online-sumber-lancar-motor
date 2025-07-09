@@ -12,7 +12,6 @@
                 <p>Total Price: ${{ $order->total_price }}</p>
                 <p>Status: {{ $order->status }}</p>
                 <p>Created At: {{ $order->created_at }}</p>
-                <p>No Resi: {{ $order->no_resi }}</p>
             </li>
         @endforeach
     </ul>

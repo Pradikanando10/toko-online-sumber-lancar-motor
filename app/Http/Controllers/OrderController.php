@@ -1,24 +1,5 @@
 <?php
 
-// namespace App\Http\Controllers;
-
-// use App\Models\Order;
-// use Illuminate\Support\Facades\Auth;
-// use Illuminate\Http\Request;
-
-// class OrderController extends Controller
-// {
-//     public function index()
-//     {
-//         // Mengambil pesanan berdasarkan user_id yang sedang login
-//         $orders = Order::where('user_id', Auth::id())->get();
-
-//         // Mengembalikan view dengan data pesanan
-//         return view('dashboard.orders', compact('orders')); // Pastikan view ini ada
-//     }
-// }
-
-
 namespace App\Http\Controllers;
 
 use App\Models\Order;
